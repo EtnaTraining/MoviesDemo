@@ -5,7 +5,11 @@ After watching the presentation of React Native [here](https://www.youtube.com/w
 <table>
   <tr>
     <td align="center"><img src="https://github.com/EtnaTraining/MoviesDemo/blob/master/screenshots/movieList.png" width="250"/><br/>Main Screen</td>
-    <td align="center"><img src="https://github.com/EtnaTraining/MoviesDemo/blob/master/screenshots/movieDetail.png" width="250"/><br/><Detail view</td>
+    <td align="center"><img src="https://github.com/EtnaTraining/MoviesDemo/blob/master/screenshots/movieDetail.png" width="250"/><br/>Detail view</td>
+  </tr>
+   <tr>
+    <td align="center"><img src="https://github.com/EtnaTraining/MoviesDemo/blob/master/screenshots/android_movieList.png" width="250"/><br/>Main Screen</td>
+    <td align="center"><img src="https://github.com/EtnaTraining/MoviesDemo/blob/master/screenshots/android_movieDetail.png" width="250"/><br/>Detail view</td>
   </tr>
   
 </table>
