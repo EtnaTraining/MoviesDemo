@@ -30,6 +30,8 @@ Complete the following steps to build and run the app:
 
 		cd MoviesDemo.git
 
+	7. Obtain a Rottentomatoes API key from [here](http://developer.rottentomatoes.com) and add it into `app\config.json`
+
 	7. Build and run for iOS
 
 		ti build -p ios --tall
