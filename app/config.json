@@ -1,5 +1,7 @@
 {
-	"global": {}, 
+	"global": {
+		"apikey": "<put_here_your_rottenTomatoes_APIKEY"
+		}, 
 	"env:development": {}, 
 	"env:test": {}, 
 	"env:production": {}, 
