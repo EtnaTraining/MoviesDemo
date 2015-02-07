@@ -1,0 +1,13 @@
+<Alloy>
+	<TableViewRow class="container">
+		<ImageView id="thumb" image="{thumbnail}"></ImageView>
+		<View class="detail">
+			<Label id="title">{title}</Label>
+			<View id="subtitle">
+				<Label id="year">{year}</Label>
+				<Label id="score" text="{score}"/>
+			</View>
+		</View>
+
+	</TableViewRow>
+</Alloy>

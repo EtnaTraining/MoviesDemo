@@ -1,0 +1,78 @@
+
+".container" : {
+ 	backgroundColor: "white",
+ 	layout: "vertical",
+ 	//backgroundColor: "blue"
+}
+"Label[platform=android]": {
+	color: "black"
+}
+"#header": {
+	//borderWidth: 1,
+	//borderColor: "black",
+	height: "40%",
+	layout: "horizontal",
+	//backgroundColor: "yellow"
+}
+"#poster": {
+	width: "40%",
+	//height: 40,
+	left: 5,
+	top: 5,
+	//right: 5,
+	//bottom: 5,
+	//borderWidth: 1,
+	//backgroundColor: "green",
+	image: "/appicon.png"
+}
+"#poster[platform=android]": {
+	left: 0
+}
+"#info": {
+	//left: 5,
+	layout: "vertical",
+	//borderWidth: 1,
+	//backgroundColor: "green",
+	
+}
+"#info[platform=android]": {
+	width: "60%",
+	//backgroundColor: "green"
+}
+"Label": {
+	left: 5,
+	font: {
+		fontSize: 13
+	}
+}
+".title": {
+	top: 5,
+	font: {
+		fontSize: 14,
+		fontWeight: "bold"
+	}
+}
+"#rating": {
+	borderWidth: 1,
+	borderColor: "black",
+	width: 15,
+	textAlign: "center",
+	font: {
+		fontWeight: "bold"
+	}
+}
+"#plot": {
+	top: 10,
+	height: "25%",
+	width: "95%"
+}
+"#plot[platform=android]": {
+	height: "26%"
+}
+".score": {
+	font: {
+		fontSize: 24,
+		fontWeight: "bold"
+	},
+	color: "green"
+}
