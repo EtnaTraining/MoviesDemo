@@ -15,7 +15,7 @@ After watching the presentation of React Native [here](https://www.youtube.com/w
 </table>
 
 
-Unfortunately, most of the developers associate Titanium with PhoneGap, cause both use HTML/CSS/JS to develop mobile apps, but the **huge difference** is that while PhoneGap renders app into a WebView, providing a responsive web app as User Interface, Titanium use generates a **native User Interface**, using UIKit on iOS and native widgets on Android.
+Unfortunately, most of the developers associate Titanium with PhoneGap, because both use HTML/CSS/JS to develop mobile apps, but the **huge difference** is that while PhoneGap renders an app into a WebView, providing a responsive web page as User Interface, Titanium generates a **native User Interface**, using UIKit on iOS and native widgets on Android.
 
 It will follow a video where I will show how to build the application in less than 1 hour.
 
@@ -41,7 +41,7 @@ Complete the following steps to build and run the app:
 
 6. Enter the `MoviesDemo` directory:
 
-	`cd MoviesDemo.git`
+	`cd MoviesDemo`
 
 7. Obtain a Rottentomatoes API key from [here](http://developer.rottentomatoes.com) and add it into `app\config.json`
 
