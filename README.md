@@ -44,19 +44,17 @@ Complete the following steps to build and run the app:
   ~~~
 6. Enter the `MoviesDemo` directory:
 
-~~~
-cd MoviesDemo
-~~~
-
+  ~~~
+  cd MoviesDemo
+  ~~~
 7. Obtain a Rottentomatoes API key from [here](http://developer.rottentomatoes.com) and add it into `app\config.json`
 8. Build and run for iOS
 
-~~~
-ti build -p ios --tall
-~~~
-
+  ~~~
+  ti build -p ios --tall
+  ~~~
 9. Build and run for Android
 
-~~~
-ti build -p android`
-~~~
+  ~~~
+  ti build -p android`
+  ~~~
