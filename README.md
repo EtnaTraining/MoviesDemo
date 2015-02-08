@@ -29,11 +29,15 @@ Complete the following steps to build and run the app:
 2. Download and install the [Android SDK](http://developer.android.com/sdk/index.html#Other)
 3. Install the Titanium CLI with:
 
-	`[sudo] npm install -g titanium`
+---
+[sudo] npm install -g titanium
+---
 
 4. Install the latest SDK
 
-	`ti sdk install`
+---
+	ti sdk install
+---
 
 5. Clone this repository:
 
