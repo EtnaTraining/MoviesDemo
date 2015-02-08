@@ -54,6 +54,7 @@ Complete the following steps to build and run the app:
   ti build -p ios --tall
   ~~~
 9. Build and run for Android
+  
   ~~~
 ti build -p android
   ~~~
