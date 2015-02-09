@@ -1,21 +1,24 @@
 <Alloy>
 	<Window class="container" title="{currentMovie.title}">
-		<View id="header">
-			<ImageView id="poster" image="{currentMovie.thumbnail}"	/>
-			<View id="info" >
-				<Label class="title" text="{currentMovie.title}"></Label>
-				<Label id="year" text="{currentMovie.year}"></Label>
-				<Label id="rating">R</Label>
-				<Label top="15">Critics:</Label>
-				<Label id="cscore" class="score" text="{currentMovie.score}%"/>
-				<Label top="15">Audience:</Label>
-				<Label id="ascore" class="score" text="{currentMovie.ascore}%"/>
+		<ActionBar platfor="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+		<ScrollView>
+			<View id="header">
+				<ImageView id="poster" image="{currentMovie.thumbnail}"	/>
+				<View id="info" >
+					<Label class="title" text="{currentMovie.title}"></Label>
+					<Label id="year" text="{currentMovie.year}"></Label>
+					<Label id="rating">R</Label>
+					<Label top="15">Critics:</Label>
+					<Label id="cscore" class="score" text="{currentMovie.score}%"/>
+					<Label top="15">Audience:</Label>
+					<Label id="ascore" class="score" text="{currentMovie.ascore}%"/>
+				</View>
 			</View>
-		</View>
-		<Label id="plot" text="{currentMovie.synopsis}"/>
-		<Label class="title">Actors</Label>
-		<View dataCollection="cast" layout="vertical">
-			<Label text="{name}"></Label>
-		</View>
+			<Label id="plot" text="{currentMovie.synopsis}"/>
+			<Label class="title">Actors</Label>
+			<View dataCollection="cast" layout="vertical">
+				<Label text="{name}"></Label>
+			</View>
+		</ScrollView>
 	</Window>
 </Alloy>

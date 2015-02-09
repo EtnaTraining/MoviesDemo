@@ -1,8 +1,13 @@
 
 ".container" : {
  	backgroundColor: "white",
- 	layout: "vertical",
  	//backgroundColor: "blue"
+}
+"ScrollView": {
+	contentWidth: Ti.UI.FILL,
+	contentHeight: Ti.UI.SIZE,
+	scrollType: "vertical",
+ 	layout: "vertical"
 }
 "Label[platform=android]": {
 	color: "black"
@@ -63,11 +68,7 @@
 }
 "#plot": {
 	top: 10,
-	height: "25%",
 	width: "95%"
-}
-"#plot[platform=android]": {
-	height: "26%"
 }
 ".score": {
 	font: {

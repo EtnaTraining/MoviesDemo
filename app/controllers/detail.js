@@ -7,12 +7,13 @@ movieDetail.ascore = movieDetail.ratings.audience_score;
 
 $.cscore.color = Alloy.Globals.setColor(movieDetail.score); 
 $.ascore.color = Alloy.Globals.setColor(movieDetail.ascore);
-	
-//Ti.API.info(movieDetail.abridged_cast);
 
 Alloy.Models.currentMovie.set(movieDetail);
 Alloy.Collections.cast.reset(movieDetail.abridged_cast);
 
+function closeWindow() {
+  $.detail.close();
+}
 
 $.detail.addEventListener("close", function() {
 	
