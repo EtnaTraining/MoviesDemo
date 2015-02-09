@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container" title="{currentMovie.title}">
-		<ActionBar platfor="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
 		<ScrollView>
 			<View id="header">
 				<ImageView id="poster" image="{currentMovie.thumbnail}"	/>
