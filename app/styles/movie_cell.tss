@@ -1,6 +1,5 @@
 
 ".container" : {
-  //layout: "horizontal",
   height: 90
 }
 "Label[platform=android]": {
@@ -8,20 +7,15 @@
 }
 "#thumb": {
 	left: 5,
-	//top: 5,
 	width: 60,
-	height: 80,
-	//borderWidth: 1
+	height: 80
 }
 ".detail": {
-	layout: "vertical",
-	//left: 5,
-	//borderWidth: 1
+	layout: "vertical"
 }
 "#title": {
 	top: 25,
 	left: 80,
-	//borderWidth: 1,
 	font: {
 		fontSize: 15,
 		fontWeight: "bold"
@@ -33,7 +27,6 @@
 	height: Ti.UI.SIZE,
 	left: 80,
 	top: 5,
-	//borderWidth: 1,
 	font: {
 		fontSize: 5
 	}

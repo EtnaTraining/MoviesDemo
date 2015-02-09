@@ -1,9 +1,7 @@
 <Alloy>
-	<!--<NavigationWindow>-->
-		<Window class="container" title="Movies">
-			<TableView id="list" dataCollection="movieList" dataTransform="transformModel" onClick="showDetail">
-				<Require src="movie_cell"></Require>
-			</TableView>
-		</Window>
-	<!--</NavigationWindow>-->
+    <Window class="container" title="Movies">
+        <TableView id="list" dataCollection="movieList" dataTransform="transformModel" onClick="showDetail">
+            <Require src="movie_cell"></Require>
+        </TableView>
+    </Window>
 </Alloy>

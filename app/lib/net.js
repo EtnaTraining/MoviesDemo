@@ -6,9 +6,11 @@ exports.getMovies = function(_callback) {
 		var data = JSON.parse(xhr.responseText);
 		_callback(data.movies);
 	};
-	xhr.onerror = function() {
+	xhr.onerror = function(e) {
+		Ti.API.info(JSON.stringify(e));
 		alert("oh oh! no movies returned from server");
 	};
 	xhr.open("GET", url);
 	xhr.send();
 };
+

@@ -1,7 +1,7 @@
 <Alloy>
 	<Window class="container" title="{currentMovie.title}">
 		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
-		<ScrollView>
+		<ScrollView >
 			<View id="header">
 				<ImageView id="poster" image="{currentMovie.thumbnail}"	/>
 				<View id="info" >
@@ -16,7 +16,7 @@
 			</View>
 			<Label id="plot" text="{currentMovie.synopsis}"/>
 			<Label class="title">Actors</Label>
-			<View dataCollection="cast" layout="vertical">
+			<View id="cast" dataCollection="cast" layout="vertical">
 				<Label text="{name}"></Label>
 			</View>
 		</ScrollView>

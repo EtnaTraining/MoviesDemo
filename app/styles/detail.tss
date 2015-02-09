@@ -1,7 +1,6 @@
 
 ".container" : {
  	backgroundColor: "white",
- 	//backgroundColor: "blue"
 }
 "ScrollView": {
 	contentWidth: Ti.UI.FILL,
@@ -13,36 +12,24 @@
 	color: "black"
 }
 "#header": {
-	//borderWidth: 1,
-	//borderColor: "black",
 	height: "40%",
-	layout: "horizontal",
-	//backgroundColor: "yellow"
+	layout: "horizontal"
 }
 "#poster": {
 	width: "40%",
-	//height: 40,
 	left: 5,
 	top: 5,
-	//right: 5,
-	//bottom: 5,
-	//borderWidth: 1,
-	//backgroundColor: "green",
 	image: "/appicon.png"
 }
 "#poster[platform=android]": {
 	left: 0
 }
 "#info": {
-	//left: 5,
-	layout: "vertical",
-	//borderWidth: 1,
-	//backgroundColor: "green",
+	layout: "vertical"
 	
 }
 "#info[platform=android]": {
-	width: "60%",
-	//backgroundColor: "green"
+	width: "60%"
 }
 "Label": {
 	left: 5,
@@ -70,10 +57,12 @@
 	top: 10,
 	width: "95%"
 }
+"#cast": {
+	height: Ti.UI.SIZE
+}
 ".score": {
 	font: {
 		fontSize: 24,
 		fontWeight: "bold"
-	},
-	color: "green"
+	}
 }
