@@ -1,13 +1,15 @@
 {
-	"global": {
-		"apikey": "<put_here_your_rottenTomatoes_APIKEY>"
-	}, 
-	"env:development": {}, 
-	"env:test": {}, 
-	"env:production": {}, 
-	"os:android": {},
-	"os:blackberry": {},
-	"os:ios": {},
-	"os:mobileweb": {},
-	"dependencies": {}
+  "global": {
+    "apikey": "<put_here_your_rottentomatoes_api_key>"
+  },
+  "env:development": {},
+  "env:test": {},
+  "env:production": {},
+  "os:android": {},
+  "os:blackberry": {},
+  "os:ios": {},
+  "os:mobileweb": {},
+  "dependencies": {
+    "nl.fokkezb.loading": "*"
+  }
 }

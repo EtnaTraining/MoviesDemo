@@ -25,6 +25,7 @@ function showDetail(e) {
 	
 }
 
+Alloy.Globals.loading.show();
 /*
 setTimeout(function() {
 	showDetail({index: 0});
