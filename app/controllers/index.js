@@ -15,7 +15,6 @@ if (OS_IOS) {
 }
 
 function showDetail(e) {
-	Ti.API.info(e.index);
 	var detailWin = Alloy.createController("detail", e.index).getView();
 	if (OS_IOS) {
 		navWin.openWindow(detailWin);

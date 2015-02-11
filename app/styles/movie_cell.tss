@@ -38,7 +38,7 @@
 	
 }
 "#score": {
-	left: 10,
+	left: 5,
 	font: {
 		fontSize: 13
 	}
