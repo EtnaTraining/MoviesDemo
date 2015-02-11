@@ -1,7 +1,7 @@
 function transformModel(model) {
 	var attrs = model.attributes;
 	attrs.score = attrs.ratings.critics_score;
-	attrs.thumbnail = attrs.posters.thumbnail;
+	attrs.thumbnail = attrs.posters.thumbnail.replace("_tmb", "_pro");
 	return attrs;
 }
 if (OS_IOS) {

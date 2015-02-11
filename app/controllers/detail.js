@@ -9,7 +9,7 @@ $.cscore.color = Alloy.Globals.setColor(movieDetail.score);
 $.ascore.color = Alloy.Globals.setColor(movieDetail.ascore);
 
 
-
+movieDetail.thumbnail.replace("_pro", "_det");
 Alloy.Models.currentMovie.set(movieDetail);
 
 Alloy.Collections.cast.reset(movieDetail.abridged_cast);
